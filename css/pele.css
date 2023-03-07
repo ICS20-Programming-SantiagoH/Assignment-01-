@@ -1,0 +1,27 @@
+/* Created by: Santiago Hewett
+* Created on: Mar 2023
+* This CSS file defines the style for index.html
+* ICS2O-Assignment-01-HTML
+*/
+
+body {
+  background-color: blue;
+}
+
+h1 {
+ background-color: rgb(31, 188, 255);
+      color: hsl(0, 88%, 52%);
+      text-align: center; 
+}
+
+h3 {
+  background-color: lightpink;
+}
+
+p {
+  background-color: lightpink;
+}
+
+ul {
+  background-color: lightpink;
+}
