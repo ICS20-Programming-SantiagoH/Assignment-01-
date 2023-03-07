@@ -56,16 +56,6 @@
   <main class="mdl-layout__content">
   </main>
 </div>
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script>
-      function btnClickMe() {
-        alert("Hockey is popular due to the speed and the frequent physical contact")
-      }
-      function btnCSS() {
-        alert("I have played and enjoyed hockey for the past 8 years of my life")
-      }
-    </script>
-    <br>
     <br>
     <h1>Who is Pelé and what has he Achieved?</h1>
     <h3>Who is Pelé?</h3>
@@ -95,17 +85,26 @@
     </span>
   </li>
 </ul>
-    <!-- Primary-colored flat button -->
-    <button onclick="btnClickMe()" class="mdl-button mdl-js-button mdl-button--primary">
-      Click Me
+    <!-- Image of Pele -->
+    <img src="./images/pele.jpg" width="400" alt="Pele">
+    <br>
+    <!-- Question -->
+    <h3>Who was Pelé's Favorite Soccer Player</h3>
+    <!-- Textfield with Floating Label -->
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample3">
+    <label class="mdl-textfield__label" for="sample3">Pelé's Favorite Soccer Player</label>
+  </div>
+</form>
+
+    <!-- JavaScript button replace -->
+    <script src="./js/pele.js"></script>
+    <div id="pele"></div>
+    <br>
+    <!-- Accent-colored raised button with ripple -->
+    <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      Submit
     </button>
-    <!-- Colored icon button -->
-    <button onclick="btnCSS()" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
-      <i class="material-icons">mood</i>
-    </button>
-    <!-- Link to other Website 2 -->
-      <p>
-        Here is the <a href = "./index2.html">link</a> to my Maradona web page</a>.
-    </p>
   </body>
 </html>
