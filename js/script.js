@@ -7,5 +7,5 @@
 function myButtonClicked () {
   // this function displays "Hello, World!"
   
-  document.getElementById("pele").innerHTML = "<p>Thank you for Sbmiting!</p>"
+  document.getElementById("script").innerHTML = "<p>Thank you for Submitting!</p>"
 }

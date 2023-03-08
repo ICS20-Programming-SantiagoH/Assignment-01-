@@ -5,13 +5,17 @@
 */
 
 body {
-  background-color: deepskyblue;
+  background-color: darkcyan;
 }
 
 h1 {
- background-color: rgb(247, 198, 24);
-      color: hsl(290, 100%, 48%);
+ background-color: rgb(240, 61, 61);
+      color: hsl(0, 0%, 0%);
       text-align: center; 
+}
+
+h3 {
+  background-color: lightpink;
 }
 
 p {
